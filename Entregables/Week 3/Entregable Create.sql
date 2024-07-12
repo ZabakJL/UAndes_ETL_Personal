@@ -14,6 +14,7 @@ Dia TINYINT,
 Mes VARCHAR(20), 
 Anio SMALLINT,
 Numero_semana_ISO TINYINT,
+FechaSource VARCHAR(20),
 PRIMARY KEY(ID_Fecha));
 
 CREATE TABLE Producto (
